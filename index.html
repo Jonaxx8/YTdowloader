@@ -5,19 +5,20 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Yt Downloader</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="assets/icons8-youtube-64.png" type="image/x-icon">
 </head>
 <body>
 	<div class="al d-flex flex-column">
 		<h1 class="heading m">Youtube Video Downloader</h1>
 
-		<div class="search-box" id="form">
-			<input type="text"  class="URL-input" placeholder=" "/>
+		<form class="search-box" action="/" method="POST">
+			<input type="text" name="link" placeholder=" "/>
 			<button type="reset" class="convert-button"></button>
-		</div>
+		</form>
 
 	</div>
 
-	<script src="script.js"></script>
+	<script src="yt.js"></script>
 </body>
 </html>
